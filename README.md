@@ -1,6 +1,6 @@
 # quantum_bandits
 
-'''python
+```python
 # Install dependencies
 pip install -r requirements.txt
 
@@ -12,4 +12,4 @@ python main.py --mode train --n_rounds 1200 --n_repeats 10
 
 # Evaluate results and generate figures
 python main.py --mode evaluate
-'''
+```
