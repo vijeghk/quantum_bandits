@@ -1,4 +1,4 @@
-# quantum_bandits
+# Quantum_Bandits
 
 ```python
 # Install dependencies
