@@ -1,13 +1,15 @@
 # quantum_bandits
 
-# 安装依赖
+'''python
+# Install dependencies
 pip install -r requirements.txt
 
-# 预处理数据（根据配置从本地 MySQL 或 FASTA 文件加载）
+# Preprocess data (loads from local MySQL or FASTA file as per configuration)
 python main.py --mode preprocess
 
-# 运行所有算法（1200 轮，10 次重复）
+# Run all algorithms (1200 rounds, 10 repeats)
 python main.py --mode train --n_rounds 1200 --n_repeats 10
 
-# 评估结果并生成图表
+# Evaluate results and generate figures
 python main.py --mode evaluate
+'''
