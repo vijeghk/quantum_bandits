@@ -1,0 +1,13 @@
+============================================================
+DATA STATISTICS
+============================================================
+Total sequences in dataset: 5000
+Active sequences selected: 22
+Feature dimension: 24
+
+Ground truth parameters:
+  Base activities (μ): shape=(22,), range=[0.100, 0.900]
+  Association matrix (θ): shape=(22, 22)
+  Number of non-zero associations: 231
+  Mean absolute strength: 0.795
+============================================================
