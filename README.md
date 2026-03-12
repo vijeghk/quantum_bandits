@@ -17,6 +17,12 @@ python main.py --mode preprocess
 # Run all algorithms (1200 rounds, 10 repeats)
 python main.py --mode train --n_rounds 1200 --n_repeats 10
 
+#Ablation
+python main.py --mode ablation
+
+#Scaling
+python main.py --mode scaling
+
 # Evaluate results and generate figures
 python main.py --mode evaluate
 ```
