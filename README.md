@@ -1,5 +1,12 @@
 # Quantum_Bandits
 
+## Create Database
+```
+mysql -u root -p -e "CREATE DATABASE chembl_36 CHARACTER SET utf8 COLLATE utf8_general_ci;"
+mysql -u root -p chembl_36 < chembl_36.dmp
+```
+
+## Run 
 ```python
 # Install dependencies
 pip install -r requirements.txt
